@@ -20,7 +20,7 @@ export async function analyzeText(text: string): Promise<AnalysisResponse> {
         return await res.json();
     } catch (e) {
         console.error(e);
-        return { riskScore: 0, riskLevel: 'Error', explanation: 'Failed to connect to PhishShield Backend.', error: String(e) };
+        return { riskScore: 0, riskLevel: 'Error', explanation: `Failed to connect to PhishShield Backend. Details: ${String(e)}`, error: String(e) };
     }
 }
 
