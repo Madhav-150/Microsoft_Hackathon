@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "LANGUAGE_ENDPOINT": "",
+    "LANGUAGE_KEY": "",
+    "VISION_ENDPOINT": "",
+    "VISION_KEY": "",
+    "TRANSLATOR_ENDPOINT": "https://api.cognitive.microsofttranslator.com",
+    "TRANSLATOR_KEY": "",
+    "TRANSLATOR_REGION": "",
+    "COSMOS_DB_CONNECTION_STRING": ""
+  }
+}
