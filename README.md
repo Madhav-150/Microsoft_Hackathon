@@ -34,24 +34,6 @@ This project is built 100% on Microsoft technologies, utilizing enterprise-grade
 
 ---
 
-## 🏗️ Architecture Flow
-
-```mermaid
-graph TD
-    User[User] -->|Uploads Txt/Img| Client[Next.js Frontend (Azure Static App)]
-    Client -->|API Request| Func[Azure Functions (Serverless Backend)]
-    
-    subgraph "Azure AI Ecosystem"
-        Func -->|Text Analysis| Lang[Azure AI Language]
-        Func -->|Image Scan| Vision[Azure AI Vision]
-        Func -->|Translation| Trans[Azure AI Translator]
-    end
-    
-    Func -->|Risk Score & Explanation| Client
-    Client -->|Alert User| User
-```
-
----
 
 ## 💻 Local Development Guide
 
