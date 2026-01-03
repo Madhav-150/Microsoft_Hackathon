@@ -106,4 +106,3 @@ This project is optimized for deployment using the **Azure Static Web Apps CLI**
 
 ## 📝 License
 Created for the **Microsoft Hackathon**.
-
