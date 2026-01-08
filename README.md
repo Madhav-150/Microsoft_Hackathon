@@ -2,8 +2,7 @@
 
 PhishShield is a robust security application designed to protect users from online scams. By leveraging the full power of the **Microsoft Azure Cloud Ecosystem**, it provides real-time analysis of suspicious text and images to detect phishing threats in any language.
 
-## 🚀 Live Demo
-**[Launch PhishShield](https://salmon-ground-06a903f00.1.azurestaticapps.net)**
+## 🚀 Live Demo Link: **[Launch PhishShield](https://salmon-ground-06a903f00.1.azurestaticapps.net)**
 
 ---
 
